@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription</title>
+    <link rel="stylesheet" href="./assets/css/styleinscription.css" />
+    <link rel="stylesheet" href="./assets/css/style (2).css" />
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.0.0-beta3-web/css/all.min.css" />
+  </head>
+  <body>
+    <div class="papa1">
+      <div class="papa2">
+        <h2 class="papa3">
+          <img src="./assets/image/logo.png" alt="DARIANE" class="papa4" />
+        </h2>
+        <form action="#" method="#" id="formulaire">
+          <h1 class="papa3">
+        <h3 class="papa5"><u>Inscription</u></h3>
+        <div class="papa6">
+          <div class="papa7">
+            <i class="fas fa-user papa9" class="icons"></i>
+            <input type="text" id="lastname" name="PRENOM" placeholder="PRENOM" maxlength="50" minlength="2" class="papa8" required />
+          </div>
+          <div class="papa7">
+            <i class="fas fa-user papa9"></i>
+            <input type="text" name="nom" placeholder="NOM" class="papa8"  maxlength="50" minlength="2" id="firstname" required />
+          </div>
+        </div>
+        <div class="papa10">
+          <i class="fas fa-envelope papa9"></i>
+          <input type="email" name="email" placeholder="ADDRESS EMAIL" maxlength="50" minlength="10" id="email" class="papa8"required />
+        </div>
+        <div class="papa6">
+          <div class="papa7">
+            <i class="fas fa-phone papa9"></i>
+            <input type="tel" name="tel" placeholder="Tel" minlength="9" maxlength="9" id="tel" class="papa8" required/>
+          </div>
+          <div class="papa7">
+            <i class="fas fa-map-marker-alt papa9"></i>
+            <input type="text" name="localisation" placeholder="Votre localisation" minlength="5" maxlength="50" id="localisation" class="papa8" />
+          </div>
+        </div>
+        <input type="hidden" id="id">
+        <div class="papa10">
+          <i class="fas fa-lock papa9"></i>
+          <input type="password" name="password" placeholder="MOT DE PASSE" class="papa8" id="password" maxlength="8" minlength="6" placeholder="ENTER YOUR PASSWORD" required class="champ4"/>
+        </div>
+        <button class="papa11" type="submit" id="submitBtn">S'inscrire</button>
+      </form>
+        <p class="papa12">
+          Vous avez déjà un compte? <a href="#"><u>Connexion</u></a>
+        </p>
+        <p class="indication">
+          retrouvez nous sur
+        </p>
+        <div class="papa13">
+          <i class="fab fa-google"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="papa14">
+        <div id="users">
+        </div>
+      </div>
+    </div>
+    <script src="assets/JS/inscription.js"></script>
+    <!-- <script src="assets/JS/script (1).js"></script> -->
+     <script src="assets/JS/dbfam-1.js"></script>
+  </body>
+</html>
